@@ -1,0 +1,21 @@
+-- Table: d2.site_topnav
+
+-- DROP TABLE d2.site_topnav;
+
+CREATE TABLE d2.site_topnav
+(
+  id serial NOT NULL,
+  text character varying,
+  href character varying,
+  title character varying,
+  sort smallint DEFAULT 100,
+  parent character varying DEFAULT '#'::character varying,
+  status character varying(7) DEFAULT 'new'::bpchar
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE d2.site_topnav
+  OWNER TO postgres;
+GRANT ALL ON TABLE d2.site_topnav TO postgres;
+GRANT ALL ON TABLE d2.site_topnav TO d2_administrator;

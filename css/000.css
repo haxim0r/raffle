@@ -1,0 +1,133 @@
+/*
+    Created on : Apr 24, 2015, 11:15:15 AM
+    Author     : rmoiniaraghi
+*/
+
+*{font: Comic Sans MS, Comic Sans, cursive !important;}
+
+.masterFrameBody{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: 12px;
+    background: -webkit-linear-gradient(left bottom, #000000, #808080, #FFFFFF, #808080, #000000) fixed no-repeat; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top right, #000000, #808080 #FFFFFF, #808080, #000000) fixed no-repeat; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top right, #000000, #808080, #FFFFFF, #808080, #000000) fixed no-repeat; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top right, #000000, #808080, #FFFFFF, #808080, #000000) fixed no-repeat; /* Standard syntax */
+}
+
+#timeoutPopup {
+    display:none;
+    position:relative;
+    margin: 24px 24px 24px 24px;
+    border:solid 1px #999999;
+    background-color:#dddddd;
+    text-align:center;
+}
+hr{
+    color: red;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=- BEGIN: TOP NAVIGATION section -=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+div.daMenuDiv{
+    z-index: 420;
+    margin: 10px 0px 10px 10px;
+    border-radius: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FF0000;
+    clear: both;
+}
+div.daRootLevel{
+    z-index: 420;
+    float: left;
+    padding: 0px 3px 0px 3px;
+}
+div.daNextLevel{
+    z-index: 420;
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    text-align: center;
+}
+A.daMenuLink{
+    text-decoration: none;
+    display: block;
+    width: 175px;
+    padding: 2px 0px 2px 0px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px #000;
+    color: white;
+    background: -webkit-radial-gradient(#FF0000, #0000FF); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#FF0000, #0000FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#FF0000, #0000FF); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#FF0000, #0000FF); /* Standard syntax */
+}
+A.daMenuLink:link{
+    border: solid 1px #0000FF;
+    background-color: #66FF66;
+    color: white;
+}
+A.daMenuLink:visited{
+    border: solid 1px #0000FF;
+    background-color: #66FF66;
+    color: white ;
+}
+A.daMenuLink:hover{
+    text-decoration: none;
+    border: solid 1px #0000FF;
+    background-color: #FF0000;
+    background: -webkit-radial-gradient(#FF0000, #FF0000); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#FF0000, #FF0000); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#FF0000, #FF0000); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#FF0000, #FF0000); /* Standard syntax */
+}
+/*-=-=-=-=-=-=-=-=-=-=-=- END: daMenu.js section -=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+#div_daHead{
+    position: relative;
+    clear: both;
+}
+
+#div_daBody{
+    position: relative;
+    border: solid 1px #e0ebeb;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px #000;
+    text-align: center;
+    clear: both;
+    padding: 12px;
+    color: black;
+    background: -webkit-radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* Standard syntax */
+}
+
+#div_daFoot{
+    position: relative;
+    border: solid 1px #e0ebeb;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px #000;
+    text-align: center;
+    clear: both;
+    padding: 12px;
+    color: black;
+    background: -webkit-radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#FFFFFF, #FFFFFF, #e0ebeb); /* Standard syntax */
+}
+
+#iframe_daBody{
+    position: relative;
+    float: left;
+    margin: 0px;
+    width: 100%;
+    height: 0px;
+    z-index: 100;
+}
+
+.rez_ui .ui-dialog-titlebar{
+    border: solid 1px black;
+    color: white;
+    background: black;
+}
